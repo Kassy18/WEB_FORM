@@ -1,0 +1,195 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fb;
+  margin: 0;
+  padding: 10px;
+  color: #2c2c2c;
+}
+
+.form-container {
+  background-color: #fff;
+  max-width: 850px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.form-container:hover {
+  transform: scale(1.01);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.logo-text h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.logo-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.03);
+  transition: background-color 0.3s ease;
+}
+
+fieldset:hover {
+  background-color: #fdfdfd;
+}
+
+legend {
+  padding: 0 8px;
+  font-weight: bold;
+  color: #2980b9;
+  font-size: 16px;
+  border-left: 3px solid #2980b9;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.checkbox-group,
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin-top: 10px;
+}
+
+.checkbox-group label,
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: #3498db;
+  transform: scale(1.1);
+}
+.icon-user::before { content: "👤 "; }
+.icon-company::before { content: "🏢 "; }
+.icon-position::before { content: "💼 "; }
+.icon-email::before { content: "✉️ "; }
+.icon-phone::before { content: "📞 "; }
+.icon-contact::before { content: "📬 "; }
+.icon-folder::before { content: "📂 "; }
+.icon-title::before { content: "📝 "; }
+.icon-service::before { content: "🛠️ "; }
+.icon-description::before { content: "🖊️ "; }
+.icon-audience::before { content: "🧑‍🤝‍🧑 "; }
+.icon-deadline::before { content: "🗓️ "; }
+.icon-budget::before { content: "💰 "; }
+.icon-file::before { content: "📎 "; }
+.icon-content::before { content: "❓ "; }
+.icon-assets::before { content: "📁 "; }
+.icon-approval::before { content: "✅ "; }
+.icon-approver::before { content: "🧾 "; }
+.icon-updates::before { content: "🔄 "; }
+.icon-signature::before { content: "🖋️ "; }
+.icon-sign::before { content: "✍️ "; }
+.icon-date::before { content: "📆 "; }
+
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .checkbox-group,
+  .radio-group {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  textarea {
+    font-size: 15px;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+
+  legend {
+    font-size: 15px;
+  }
+    }
