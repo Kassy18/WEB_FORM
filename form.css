@@ -205,95 +205,6 @@ content: "📆 ";
 }
 
 
-.submit-btn {
-  display: block;
-  width: 90%;
-  max-width: 300px;
-  margin: 20px auto;
-  background-color: #2980b9;
-  color: white;
-  padding: 14px 0;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  text-align: center;
-  transition: background-color 0.3s ease;
-}
-
-.submit-btn:hover {
-  background-color: #1f6391;
-}
-
-
-
-.confirmation-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-#show-confirm:checked ~ .confirmation-modal {
-  display: flex;
-}
-
-.confirmation-box {
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 12px;
-  text-align: center;
-  max-width: 400px;
-  width: 100%;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-  animation: fadeIn 0.3s ease;
-}
-
-.confirmation-box h2 {
-  color: #27ae60;
-  margin-bottom: 10px;
-  font-size: 22px;
-}
-
-.confirmation-box p {
-  margin-bottom: 20px;
-  font-size: 16px;
-  color: #555;
-}
-
-.close-btn {
-  display: inline-block;
-  background-color: #e74c3c;
-  color: white;
-  padding: 10px 24px;
-  font-size: 14px;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
-  max-width: 80%;
-  width: auto;
-}
-
-.close-btn:hover {
-  background-color: #c0392b;
-}
-
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
-}
-
-
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
@@ -326,17 +237,5 @@ content: "📆 ";
   legend {
     font-size: 15px;
   }
-  .confirmation-box {
-    padding: 20px;
-  }
-
-  .confirmation-box p {
-    font-size: 14px;
-  }
-
-  .submit-btn,
-  .close-btn {
-    width: 100%;
-    font-size: 15px;
-  }
+  
 }
