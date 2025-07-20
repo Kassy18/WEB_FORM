@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-  width: 120px;
+  width: 100px;
   height: auto;
   margin-right: 15px;
 }
@@ -136,29 +136,73 @@ input[type="radio"] {
   accent-color: #3498db;
   transform: scale(1.1);
 }
-.icon-user::before { content: "👤 "; }
-.icon-company::before { content: "🏢 "; }
-.icon-position::before { content: "💼 "; }
-.icon-email::before { content: "✉️ "; }
-.icon-phone::before { content: "📞 "; }
-.icon-contact::before { content: "📬 "; }
-.icon-folder::before { content: "📂 "; }
-.icon-title::before { content: "📝 "; }
-.icon-service::before { content: "🛠️ "; }
-.icon-description::before { content: "🖊️ "; }
-.icon-audience::before { content: "🧑‍🤝‍🧑 "; }
-.icon-deadline::before { content: "🗓️ "; }
-.icon-budget::before { content: "💰 "; }
-.icon-file::before { content: "📎 "; }
-.icon-content::before { content: "❓ "; }
-.icon-assets::before { content: "📁 "; }
-.icon-approval::before { content: "✅ "; }
-.icon-approver::before { content: "🧾 "; }
-.icon-updates::before { content: "🔄 "; }
-.icon-signature::before { content: "🖋️ "; }
-.icon-sign::before { content: "✍️ "; }
-.icon-date::before { content: "📆 "; }
 
+.icon-user::before { 
+content: "👤 "; 
+}
+.icon-company::before { 
+content: "🏢 ";
+ }
+.icon-position::before { 
+content: "💼 ";
+ }
+.icon-email::before { 
+content: "✉️ "; 
+}
+.icon-phone::before { 
+content: "📞 "; 
+}
+.icon-contact::before { 
+content: "📬 "; 
+}
+.icon-folder::before { 
+content: "📂 "; 
+}
+.icon-title::before { 
+content: "📝 "; 
+}
+.icon-service::before { 
+content: "🛠️ "; 
+}
+.icon-description::before { 
+content: "🖊️ ";
+ }
+.icon-audience::before {
+ content: "🧑‍🤝‍🧑 ";
+  }
+.icon-deadline::before { 
+content: "🗓️ "; 
+}
+.icon-budget::before { 
+content: "💰 ";
+ }
+.icon-file::before { 
+content: "📎 ";
+ }
+.icon-content::before { 
+content: "❓ ";
+ }
+.icon-assets::before { 
+content: "📁 "; 
+}
+.icon-approval::before { 
+content: "✅ "; 
+}
+.icon-approver::before { 
+content: "🧾 "; 
+}
+.icon-updates::before { 
+content: "🔄 "; 
+}
+.icon-signature::before { 
+content: "🖋️ "; 
+}
+.icon-sign::before { 
+content: "✍️ "; 
+}
+.icon-date::before { 
+content: "📆 "; 
+}
 
 
 .submit-btn {
@@ -249,6 +293,7 @@ input[type="radio"] {
   to { opacity: 1; transform: scale(1); }
 }
 
+
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
@@ -294,4 +339,4 @@ input[type="radio"] {
     width: 100%;
     font-size: 15px;
   }
-    }
+}
