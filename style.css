@@ -137,6 +137,21 @@ input[type="radio"] {
   transform: scale(1.1);
 }
 
+.submit-btn {
+  display: block;
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  background-color: #2980b9;
+  color: white;
+  padding: 14px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
 
 
 
@@ -170,6 +185,10 @@ input[type="radio"] {
   }
 
   legend {
+    font-size: 15px;
+  }
+  .submit-btn {
+    width: 100%;
     font-size: 15px;
   }
   
